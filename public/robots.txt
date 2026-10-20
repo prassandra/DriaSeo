@@ -1,0 +1,6 @@
+# Robots.txt for DriaSeo (https://seo.driacom.com/)
+User-agent: *
+Allow: /
+
+# Sitemap Location for Google Search Console & Bing Webmaster
+Sitemap: https://seo.driacom.com/sitemap.xml

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="driaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <filter id="driaShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base matching Header Logo -->
+  <rect width="64" height="64" rx="16" fill="url(#driaGrad)" />
+
+  <!-- Subtle Glass Inner Border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.25" />
+
+  <!-- SEO Authority Vector matching Header Logo -->
+  <g filter="url(#driaShadow)">
+    <svg viewBox="0 0 24 24" x="9" y="9" width="46" height="46" fill="none" stroke="#ffffff" stroke-width="2.3">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.5l4-4 4 4 6-6m4 0h-4m4 0v4" />
+      <circle cx="7" cy="9.5" r="1.6" fill="#ffffff" stroke="none" />
+      <circle cx="11" cy="13.5" r="1.6" fill="#ffffff" stroke="none" />
+      <circle cx="17" cy="7.5" r="1.6" fill="#ffffff" stroke="none" />
+      <path stroke-linecap="round" d="M3 20.5h18" stroke-opacity="0.75" stroke-width="2" />
+    </svg>
+  </g>
+</svg>

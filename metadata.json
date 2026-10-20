@@ -1,0 +1,8 @@
+{
+  "name": "Cek Metrik Domain - Cek DA, PA, DR, Spam Score & Backlink Checker",
+  "description": "Tool gratis untuk cek Domain Authority (DA Moz), Page Authority (PA), Domain Rating (DR), Spam Score, Backlinks, dan Umur Domain secara otomatis dan akurat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
